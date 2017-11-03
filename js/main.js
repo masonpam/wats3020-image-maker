@@ -40,7 +40,7 @@ class ImageMaker {
         this.topTextInput = document.querySelector('input[name="topText"]');
 
         // TODO: Select the `input` element with the `name` attribute "bottomText"
-        this.bottomTextInput = document.querySelector('iput[name="bottomText"]');
+        this.bottomTextInput = document.querySelector('input[name="bottomText"]');
 
         // NOTE: If you add additional form fields to modify other aspects of
         // the image, then you will need to make attributes for each of those
@@ -52,7 +52,7 @@ class ImageMaker {
         // update the style attributes and innerHTML content of the HTML
         // elements selected in the `constructor()` of this class in order to
         // update `this.imagePreview`.
-        this.imagePreview.style.backgroundImage = `url(images/${this.backgroundInput})`;
+        this.imagePreview.style.backgroundImage = `url(images/${this.backgroundInput.value})`;
         // TODO: Update the `background-image` CSS property for `this.imagePreview`.
         this.topText.innerHTML = this.topTextInput.value;
         // TODO: Update the `innerHTML` of `this.topText`.
