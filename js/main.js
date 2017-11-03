@@ -27,7 +27,7 @@ class ImageMaker {
         // TODO: create a new `<p>` element called `this.bottomText`
         this.bottomText = document.createElement('p');
         // TODO: Add a `class` attribute to `this.bottomText` that contains the classname "bottom-text".
-        this.bottomText.setAttribute('clss', 'bottom-text');
+        this.bottomText.setAttribute('class', 'bottom-text');
         // TODO: Append `this.bottomText` as a child element to `this.imagePreview`
         this.imagePreview.appendChild(this.bottomText);
         // This class also needs to use the form fields to read user input. Set
